@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const result = userManager.saveUser(userData); // memanggil method saveUser dari object userManager
     if (result.success) {
-      window.location.href = "/src/signin.html";
+      window.location.href = "signin.html";
     } else {
       alert("Gagal Menyimpan Data");
     }
